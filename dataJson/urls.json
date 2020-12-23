@@ -1,0 +1,21 @@
+{
+    "validators": {
+        "5Qhgdc7UcEJUJ7BN851ykMPyV4TEgc4FcSLFwxheSXiny9UF": {
+            "name": "Doge",
+            "email_to": [
+                "a@foxmail.com",
+                "b@foxmail.com"
+            ]
+        },
+        "5TUkY4VZ3fgs3AipkKtEhLaR8gao7bdKSG68nK7wSSGWt6NN": {
+            "name": "MXCPOSPOOL",
+            "email_to": []
+        },
+        "http://baidu.com/": {
+            "email_to": [
+                "123456@qq.com"
+            ],
+            "name": "obj"
+        }
+    }
+}

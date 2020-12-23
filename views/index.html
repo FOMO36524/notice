@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin:0;padding:0;}
+        button{
+            display: block;
+            margin:5px;
+        }
+    </style>
+</head>
+<body>
+<h1>我是index.html</h1>
+<button class="addList">addList</button>
+
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script>
+    $(function(){
+        let url = 'http://127.0.0.1:8888';
+        let tokens='';
+        $(".addList").click(function(){
+            let obj = {
+                "url":'http://baidu.com/',
+                "email":'123456@qq.com'
+            };
+            $.ajax({
+                type:"POST",
+                url:url+"/addList",
+                data:JSON.stringify(obj),
+                dataType: "json",
+                contentType:"application/json",
+                success:function(result){
+                    console.log(result)
+                }
+            });
+        })
+    })
+</script>
+</body>
+</html>

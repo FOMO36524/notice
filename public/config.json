@@ -1,0 +1,11 @@
+{
+  "email": {
+    "enable": false,
+    "host": "smtp.qq.com",
+    "port": 465,
+    "ssl": true,
+    "uid": "3085861530@qq.com",
+    "pwd": "ljdgprbpxmgeddbe",
+    "from": "3085861530@qq.com"
+  }
+}
