@@ -5,7 +5,7 @@
     "port": 465,
     "ssl": true,
     "uid": "3085861530@qq.com",
-    "pwd": "you_email_code",
+    "pwd": "you_email_code_",
     "from": "3085861530@qq.com"
   }
 }
